@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		076F7C77294C0196002B07FE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 076F7C76294C0196002B07FE /* HomeViewController.swift */; };
 		079E9163294BE835003FE9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E9162294BE835003FE9E5 /* AppDelegate.swift */; };
 		079E9165294BE835003FE9E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E9164294BE835003FE9E5 /* SceneDelegate.swift */; };
 		079E9167294BE835003FE9E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 079E9166294BE835003FE9E5 /* ViewController.swift */; };
@@ -18,7 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		076F7C76294C0196002B07FE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		079E915F294BE835003FE9E5 /* BMI Calculator App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		079E9162294BE835003FE9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		079E9164294BE835003FE9E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 				079E9170294BE836003FE9E5 /* LaunchScreen.storyboard */,
 				079E9173294BE836003FE9E5 /* Info.plist */,
 				079E916B294BE835003FE9E5 /* BMI_Calculator_App.xcdatamodeld */,
-				076F7C76294C0196002B07FE /* HomeViewController.swift */,
 			);
 			path = "BMI Calculator App";
 			sourceTree = "<group>";
@@ -144,7 +141,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				076F7C77294C0196002B07FE /* HomeViewController.swift in Sources */,
 				079E916D294BE835003FE9E5 /* BMI_Calculator_App.xcdatamodeld in Sources */,
 				079E9167294BE835003FE9E5 /* ViewController.swift in Sources */,
 				079E9163294BE835003FE9E5 /* AppDelegate.swift in Sources */,

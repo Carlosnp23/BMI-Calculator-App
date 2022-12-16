@@ -39,19 +39,8 @@ class ViewController: UIViewController {
                 width: size,
                 height: size )
             
-        })
-        
-        UIView.animate(withDuration: 1.5, animations: {
             self.imageView.alpha = 0
-        }, completion: { done in
-            if done {
-                DispatchQueue.main.asyncAfter(deadline: .now()+0.5, execute: {
-                    let viewController = HomeViewController()
-                    viewController.modalTransitionStyle = .crossDissolve
-                    viewController.modalPresentationStyle = .fullScreen
-                    self.present(viewController, animated: true)
-                })
-            }
+
         })
         
     }
